@@ -1,0 +1,21 @@
+.container {
+  margin-top: 7%;
+}
+
+.main { 
+  border-radius: 4px;
+  background-color: #dedede;
+  height: 400px;
+}
+
+.temp:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0 !important;
+}
