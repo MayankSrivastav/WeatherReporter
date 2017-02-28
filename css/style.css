@@ -1,11 +1,9 @@
-.container {
+/*.container {
   margin-top: 7%;
-}
+}*/
 
-.main { 
-  border-radius: 4px;
+body {
   background-color: #dedede;
-  height: 400px;
 }
 
 .temp:hover {
@@ -14,8 +12,23 @@
 
 li {
   list-style: none;
+  font-size: 50px;
 }
 
 ul {
   padding-left: 0 !important;
+}
+
+p {
+  font-size: 69px;
+  text-align: center;
+  color: #65a0a7;
+}
+
+.city {
+  color: #f0f8ff;
+}
+
+.temp {
+  color: #7bb4e6;
 }
