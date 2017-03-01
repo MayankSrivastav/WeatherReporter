@@ -11,7 +11,7 @@ function WeatherViewModel() {
   // First get the current location, after which
   // get the weather report based on the current
   // location
-  $.get("http://ipinfo.io", function (response) {
+  $.get("https://ipinfo.io", function (response) {
     self.city(response.city + ', ' + response.country);
 
     $.get('http://api.openweathermap.org/data/2.5/weather?q=' + self.city() 
