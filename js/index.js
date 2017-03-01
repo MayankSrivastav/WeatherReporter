@@ -14,7 +14,7 @@ function WeatherViewModel() {
   $.get("https://ipinfo.io", function (response) {
     self.city(response.city + ', ' + response.country);
 
-    $.get('http://api.openweathermap.org/data/2.5/weather?q=' + self.city() 
+    $.get('https://api.openweathermap.org/data/2.5/weather?q=' + self.city() 
           + '&units=metric&APPID=159a04ea6822414e06e035ea47bd0c3b', function (response) {
       self.temp(response.main.temp + ' ' + self.sym);
       self.setIcon(response.weather[0].main.toLowerCase());
