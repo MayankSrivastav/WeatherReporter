@@ -1,9 +1,12 @@
-/*.container {
-  margin-top: 7%;
-}*/
-
+html,
 body {
-  background-color: #dedede;
+  height: 100%;
+  width: 100%;
+  background: #dedede; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#dedede, #e0dede, #f3f3f3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#dedede, #e0dede, #f3f3f3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#dedede, #e0dede, #f3f3f3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#dedede, #e0dede, #f3f3f3); /* Standard syntax */
 }
 
 .temp:hover {
@@ -20,18 +23,14 @@ ul {
 }
 
 p {
-  font-size: 69px;
+  margin-top: 30px;
+  font-size: 68px;
   text-align: center;
   color: #65a0a7;
 }
 
 .city {
-  color: #f0f8ff;
-  text-shadow:
-  -1px -1px 0 #000,  
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
+  color: #f0f8ff;  
 }
 
 .temp {
